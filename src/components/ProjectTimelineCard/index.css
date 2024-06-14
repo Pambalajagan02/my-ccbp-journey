@@ -1,0 +1,57 @@
+/* Write your CSS here */
+.project-container {
+  display: flex;
+  flex-direction: column;
+}
+.projectTitle {
+  font-size: 17px;
+  color: #1e293b;
+  font-family: roboto;
+}
+.img-style {
+  width: 200px;
+}
+.project-flex-con {
+  display: flex;
+}
+.clock-container-mobile1 {
+  display: flex;
+}
+.clock-container1 {
+  display: none;
+}
+@media (min-width: 768px) {
+  .clock-container-mobile1 {
+    display: none;
+  }
+  .clock-container1 {
+    display: flex;
+    margin: 0px;
+    margin-right: 10px;
+    justify-content: flex-end;
+  }
+}
+
+.icon1 {
+  font-size: 17px;
+  align-self: center;
+}
+@media (min-width: 768px) {
+  .icon1 {
+    align-self: flex-start;
+    margin-top: 15px;
+    
+  }
+}
+.duration1 {
+  text-align: center;
+  font-size: 13px;
+  color: #1e293b;
+  font-family: roboto;
+  font-weight: 500;
+  margin-left: 3px;
+ width: 30px;
+}
+.ancor {
+  text-decoration: none;
+}
